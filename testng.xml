@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite parallel="false" name="Suite">
+  
+  <listeners>
+		<listener class-name="com.api.qa.util.Listners" />
+  </listeners>
+	
+  <test name="API Test" thread-count="5">
+    <classes>
+      <class name="com.api.qa.testcase.Trello_GetTest"/>
+      <class name="com.api.qa.testcase.Post_Employee"/>
+      <class name="com.api.qa.testcase.Get_Single_Employee"/>
+      <class name="com.api.qa.testcase.Put_Employee"/>
+      <class name="com.api.qa.testcase.Delete_Employee"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

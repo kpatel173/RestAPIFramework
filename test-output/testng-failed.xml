@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.api.qa.util.Listners"/>
+  </listeners>
+  <test thread-count="5" name="API Test(failed)">
+    <classes>
+      <class name="com.api.qa.testcase.Get_Single_Employee">
+        <methods>
+          <include name="checkContentType"/>
+          <include name="getEmployeeData"/>
+          <include name="tearDown"/>
+          <include name="checkResposeBody"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.api.qa.testcase.Get_Single_Employee -->
+      <class name="com.api.qa.testcase.Trello_GetTest">
+        <methods>
+          <include name="CreateBoard"/>
+          <include name="afterMethod"/>
+          <include name="GetBoard"/>
+        </methods>
+      </class> <!-- com.api.qa.testcase.Trello_GetTest -->
+      <class name="com.api.qa.testcase.Delete_Employee">
+        <methods>
+          <include name="checkResposeBody"/>
+          <include name="checkStatusCode"/>
+          <include name="checkContentType"/>
+          <include name="setup"/>
+          <include name="checkcontentEncoding"/>
+          <include name="checkserverType"/>
+          <include name="checkstatusLine"/>
+          <include name="deleteEmployee"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.api.qa.testcase.Delete_Employee -->
+      <class name="com.api.qa.testcase.Put_Employee">
+        <methods>
+          <include name="updateEmployee"/>
+          <include name="checkStatusCode"/>
+          <include name="checkserverType"/>
+          <include name="checkResposeBody"/>
+          <include name="checkstatusLine"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.api.qa.testcase.Put_Employee -->
+      <class name="com.api.qa.testcase.Post_Employee">
+        <methods>
+          <include name="checkContentType"/>
+          <include name="createEmployee"/>
+          <include name="tearDown"/>
+          <include name="checkcontentEncoding"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.api.qa.testcase.Post_Employee -->
+    </classes>
+  </test> <!-- API Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
