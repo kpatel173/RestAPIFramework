@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="28.393" tests="29" errors="0" skipped="7" failures="12">
+  <properties>
+    <property name="java.specification.version" value="14"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/krupalpatel/Desktop/Workspace2/RestAPI/target/test-classes:/Users/krupalpatel/Desktop/Workspace2/RestAPI/target/classes:/Users/krupalpatel/.m2/repository/io/rest-assured/rest-assured/5.1.1/rest-assured-5.1.1.jar:/Users/krupalpatel/.m2/repository/org/apache/groovy/groovy/4.0.1/groovy-4.0.1.jar:/Users/krupalpatel/.m2/repository/org/apache/groovy/groovy-xml/4.0.1/groovy-xml-4.0.1.jar:/Users/krupalpatel/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/krupalpatel/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/krupalpatel/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/krupalpatel/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/krupalpatel/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/krupalpatel/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/krupalpatel/.m2/repository/io/rest-assured/json-path/5.1.1/json-path-5.1.1.jar:/Users/krupalpatel/.m2/repository/org/apache/groovy/groovy-json/4.0.1/groovy-json-4.0.1.jar:/Users/krupalpatel/.m2/repository/io/rest-assured/rest-assured-common/5.1.1/rest-assured-common-5.1.1.jar:/Users/krupalpatel/.m2/repository/io/rest-assured/xml-path/5.1.1/xml-path-5.1.1.jar:/Users/krupalpatel/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/Users/krupalpatel/.m2/repository/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar:/Users/krupalpatel/.m2/repository/junit/junit/4.10/junit-4.10.jar:/Users/krupalpatel/.m2/repository/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar:/Users/krupalpatel/.m2/repository/org/testng/testng/7.6.0/testng-7.6.0.jar:/Users/krupalpatel/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/krupalpatel/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/krupalpatel/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/krupalpatel/.m2/repository/org/webjars/jquery/3.6.0/jquery-3.6.0.jar:/Users/krupalpatel/.m2/repository/org/apache/poi/poi/3.16-beta2/poi-3.16-beta2.jar:/Users/krupalpatel/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/Users/krupalpatel/.m2/repository/org/apache/commons/commons-collections4/4.1/commons-collections4-4.1.jar:/Users/krupalpatel/.m2/repository/org/apache/poi/poi-ooxml/3.9/poi-ooxml-3.9.jar:/Users/krupalpatel/.m2/repository/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar:/Users/krupalpatel/.m2/repository/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.jar:/Users/krupalpatel/.m2/repository/org/apache/poi/poi-ooxml-schemas/3.9/poi-ooxml-schemas-3.9.jar:/Users/krupalpatel/.m2/repository/org/apache/xmlbeans/xmlbeans/2.3.0/xmlbeans-2.3.0.jar:/Users/krupalpatel/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar:/Users/krupalpatel/.m2/repository/org/apache/poi/poi-scratchpad/3.9/poi-scratchpad-3.9.jar:/Users/krupalpatel/.m2/repository/org/apache/poi/ooxml-schemas/1.1/ooxml-schemas-1.1.jar:/Users/krupalpatel/.m2/repository/org/apache/poi/openxml4j/1.0-beta/openxml4j-1.0-beta.jar:/Users/krupalpatel/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar:/Users/krupalpatel/.m2/repository/org/jsoup/jsoup/1.8.3/jsoup-1.8.3.jar:/Users/krupalpatel/.m2/repository/org/xerial/sqlite-jdbc/3.8.11.1/sqlite-jdbc-3.8.11.1.jar:/Users/krupalpatel/.m2/repository/org/freemarker/freemarker/2.3.23/freemarker-2.3.23.jar:/Users/krupalpatel/.m2/repository/org/mongodb/mongodb-driver/3.0.4/mongodb-driver-3.0.4.jar:/Users/krupalpatel/.m2/repository/org/mongodb/mongodb-driver-core/3.0.4/mongodb-driver-core-3.0.4.jar:/Users/krupalpatel/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/Users/krupalpatel/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar:/Users/krupalpatel/.m2/repository/org/mongodb/bson/3.3.0/bson-3.3.0.jar:/Users/krupalpatel/.m2/repository/com/google/code/gson/gson/2.8.5/gson-2.8.5.jar:/Users/krupalpatel/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="14"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/krupalpatel/Desktop/Workspace2/RestAPI/target/surefire/surefirebooter3881264602693981114.jar /Users/krupalpatel/Desktop/Workspace2/RestAPI/target/surefire 2022-07-24T14-57-45_361-jvmRun1 surefire16486052161914337845tmp surefire_015476864618218541320tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/krupalpatel/Desktop/Workspace2/RestAPI/target/test-classes:/Users/krupalpatel/Desktop/Workspace2/RestAPI/target/classes:/Users/krupalpatel/.m2/repository/io/rest-assured/rest-assured/5.1.1/rest-assured-5.1.1.jar:/Users/krupalpatel/.m2/repository/org/apache/groovy/groovy/4.0.1/groovy-4.0.1.jar:/Users/krupalpatel/.m2/repository/org/apache/groovy/groovy-xml/4.0.1/groovy-xml-4.0.1.jar:/Users/krupalpatel/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/krupalpatel/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/krupalpatel/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/krupalpatel/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/krupalpatel/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/krupalpatel/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/krupalpatel/.m2/repository/io/rest-assured/json-path/5.1.1/json-path-5.1.1.jar:/Users/krupalpatel/.m2/repository/org/apache/groovy/groovy-json/4.0.1/groovy-json-4.0.1.jar:/Users/krupalpatel/.m2/repository/io/rest-assured/rest-assured-common/5.1.1/rest-assured-common-5.1.1.jar:/Users/krupalpatel/.m2/repository/io/rest-assured/xml-path/5.1.1/xml-path-5.1.1.jar:/Users/krupalpatel/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/Users/krupalpatel/.m2/repository/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar:/Users/krupalpatel/.m2/repository/junit/junit/4.10/junit-4.10.jar:/Users/krupalpatel/.m2/repository/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar:/Users/krupalpatel/.m2/repository/org/testng/testng/7.6.0/testng-7.6.0.jar:/Users/krupalpatel/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/krupalpatel/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/krupalpatel/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/krupalpatel/.m2/repository/org/webjars/jquery/3.6.0/jquery-3.6.0.jar:/Users/krupalpatel/.m2/repository/org/apache/poi/poi/3.16-beta2/poi-3.16-beta2.jar:/Users/krupalpatel/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/Users/krupalpatel/.m2/repository/org/apache/commons/commons-collections4/4.1/commons-collections4-4.1.jar:/Users/krupalpatel/.m2/repository/org/apache/poi/poi-ooxml/3.9/poi-ooxml-3.9.jar:/Users/krupalpatel/.m2/repository/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar:/Users/krupalpatel/.m2/repository/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.jar:/Users/krupalpatel/.m2/repository/org/apache/poi/poi-ooxml-schemas/3.9/poi-ooxml-schemas-3.9.jar:/Users/krupalpatel/.m2/repository/org/apache/xmlbeans/xmlbeans/2.3.0/xmlbeans-2.3.0.jar:/Users/krupalpatel/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar:/Users/krupalpatel/.m2/repository/org/apache/poi/poi-scratchpad/3.9/poi-scratchpad-3.9.jar:/Users/krupalpatel/.m2/repository/org/apache/poi/ooxml-schemas/1.1/ooxml-schemas-1.1.jar:/Users/krupalpatel/.m2/repository/org/apache/poi/openxml4j/1.0-beta/openxml4j-1.0-beta.jar:/Users/krupalpatel/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar:/Users/krupalpatel/.m2/repository/org/jsoup/jsoup/1.8.3/jsoup-1.8.3.jar:/Users/krupalpatel/.m2/repository/org/xerial/sqlite-jdbc/3.8.11.1/sqlite-jdbc-3.8.11.1.jar:/Users/krupalpatel/.m2/repository/org/freemarker/freemarker/2.3.23/freemarker-2.3.23.jar:/Users/krupalpatel/.m2/repository/org/mongodb/mongodb-driver/3.0.4/mongodb-driver-3.0.4.jar:/Users/krupalpatel/.m2/repository/org/mongodb/mongodb-driver-core/3.0.4/mongodb-driver-core-3.0.4.jar:/Users/krupalpatel/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/Users/krupalpatel/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar:/Users/krupalpatel/.m2/repository/org/mongodb/bson/3.3.0/bson-3.3.0.jar:/Users/krupalpatel/.m2/repository/com/google/code/gson/gson/2.8.5/gson-2.8.5.jar:/Users/krupalpatel/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/krupalpatel"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2020-07-14"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/krupalpatel/Desktop/Workspace2/RestAPI"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="surefire.real.class.path" value="/Users/krupalpatel/Desktop/Workspace2/RestAPI/target/surefire/surefirebooter3881264602693981114.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="14.0.2+12-46"/>
+    <property name="user.name" value="krupalpatel"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="10.13.6"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/krupalpatel/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/p8/fwvt8hpx36d58mz2k3pr6zcw0000gn/T/"/>
+    <property name="java.version" value="14.0.2"/>
+    <property name="user.dir" value="/Users/krupalpatel/Desktop/Workspace2/RestAPI"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.library.path" value="/Users/krupalpatel/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="14.0.2+12-46"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="58.0"/>
+  </properties>
+  <testcase name="CreateBoard" classname="com.api.qa.testcase.Trello_GetTest" time="4.507">
+    <failure message="expected [200] but found [400]" type="java.lang.AssertionError">java.lang.AssertionError: expected [200] but found [400]
+	at com.api.qa.testcase.Trello_GetTest.CreateBoard(Trello_GetTest.java:41)
+</failure>
+    <system-out><![CDATA[{"message":"Board must be in a team — specify an idOrganization"}
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+log4j:WARN No appenders could be found for logger (org.apache.http.impl.conn.BasicClientConnectionManager).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+]]></system-err>
+  </testcase>
+  <testcase name="GetBoard" classname="com.api.qa.testcase.Trello_GetTest" time="2.238">
+    <failure message="expected [200] but found [400]" type="java.lang.AssertionError">java.lang.AssertionError: expected [200] but found [400]
+	at com.api.qa.testcase.Trello_GetTest.GetBoard(Trello_GetTest.java:63)
+</failure>
+    <system-out><![CDATA[invalid id
+]]></system-out>
+  </testcase>
+  <testcase name="checkContentType" classname="com.api.qa.testcase.Post_Employee" time="0.001"/>
+  <testcase name="checkResposeBody" classname="com.api.qa.testcase.Post_Employee" time="0.006">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
+	at com.api.qa.testcase.Post_Employee.checkResposeBody(Post_Employee.java:58)
+</failure>
+    <system-out><![CDATA[<!DOCTYPE html>
+<html lang="en">
+    <head><meta charset="utf-8">
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Too Many Requests</title>
+
+        <!-- Fonts -->
+        <link rel="dns-prefetch" href="//fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+        <!-- Styles -->
+        <style>
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Nunito', sans-serif;
+                font-weight: 100;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 100vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .code {
+                border-right: 2px solid;
+                font-size: 26px;
+                padding: 0 15px 0 15px;
+                text-align: center;
+            }
+
+            .message {
+                font-size: 18px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="flex-center position-ref full-height">
+            <div class="code">
+                429            </div>
+
+            <div class="message" style="padding: 10px;">
+                Too Many Requests            </div>
+        </div>
+    <script type="text/javascript" onload="__ezcl.handle(true);" async src="/utilcave_com/inc/ezcl.webp?cb=4"></script></body>
+</html>
+
+]]></system-out>
+  </testcase>
+  <testcase name="checkStatusCode" classname="com.api.qa.testcase.Post_Employee" time="0.002">
+    <failure message="expected [200] but found [429]" type="java.lang.AssertionError">java.lang.AssertionError: expected [200] but found [429]
+	at com.api.qa.testcase.Post_Employee.checkStatusCode(Post_Employee.java:67)
+</failure>
+  </testcase>
+  <testcase name="checkcontentEncoding" classname="com.api.qa.testcase.Post_Employee" time="0.001"/>
+  <testcase name="checkserverType" classname="com.api.qa.testcase.Post_Employee" time="0"/>
+  <testcase name="checkstatusLine" classname="com.api.qa.testcase.Post_Employee" time="0.001">
+    <failure message="expected [HTTP/1.1 200 OK] but found [HTTP/1.1 429 Too Many Requests]" type="java.lang.AssertionError">java.lang.AssertionError: expected [HTTP/1.1 200 OK] but found [HTTP/1.1 429 Too Many Requests]
+	at com.api.qa.testcase.Post_Employee.checkstatusLine(Post_Employee.java:74)
+</failure>
+  </testcase>
+  <testcase name="checkContentLenght" classname="com.api.qa.testcase.Get_Single_Employee" time="0.002"/>
+  <testcase name="checkContentType" classname="com.api.qa.testcase.Get_Single_Employee" time="0.003">
+    <failure message="expected [text/html; charset=UTF-8] but found [application/json]" type="java.lang.AssertionError">java.lang.AssertionError: expected [text/html; charset=UTF-8] but found [application/json]
+	at com.api.qa.testcase.Get_Single_Employee.checkContentType(Get_Single_Employee.java:61)
+</failure>
+  </testcase>
+  <testcase name="checkResponseTime" classname="com.api.qa.testcase.Get_Single_Employee" time="0.004"/>
+  <testcase name="checkResposeBody" classname="com.api.qa.testcase.Get_Single_Employee" time="0.003">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
+	at com.api.qa.testcase.Get_Single_Employee.checkResposeBody(Get_Single_Employee.java:31)
+</failure>
+    <system-out><![CDATA[{"status":"success","data":null,"message":"Successfully! Record has been fetched."}
+]]></system-out>
+  </testcase>
+  <testcase name="checkStatusCode" classname="com.api.qa.testcase.Get_Single_Employee" time="0.001"/>
+  <testcase name="checkserverType" classname="com.api.qa.testcase.Get_Single_Employee" time="0.001"/>
+  <testcase name="checkstatusLine" classname="com.api.qa.testcase.Get_Single_Employee" time="0.001"/>
+  <testcase name="checkContentType" classname="com.api.qa.testcase.Put_Employee" time="0.002"/>
+  <testcase name="checkResposeBody" classname="com.api.qa.testcase.Put_Employee" time="0.003">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
+	at com.api.qa.testcase.Put_Employee.checkResposeBody(Put_Employee.java:56)
+</failure>
+  </testcase>
+  <testcase name="checkStatusCode" classname="com.api.qa.testcase.Put_Employee" time="0.002">
+    <failure message="expected [200] but found [429]" type="java.lang.AssertionError">java.lang.AssertionError: expected [200] but found [429]
+	at com.api.qa.testcase.Put_Employee.checkStatusCode(Put_Employee.java:65)
+</failure>
+  </testcase>
+  <testcase name="checkcontentEncoding" classname="com.api.qa.testcase.Put_Employee" time="0.001"/>
+  <testcase name="checkserverType" classname="com.api.qa.testcase.Put_Employee" time="0.002">
+    <failure message="expected [nginx/1.14.1] but found [nginx]" type="java.lang.AssertionError">java.lang.AssertionError: expected [nginx/1.14.1] but found [nginx]
+	at com.api.qa.testcase.Put_Employee.checkserverType(Put_Employee.java:87)
+</failure>
+  </testcase>
+  <testcase name="checkstatusLine" classname="com.api.qa.testcase.Put_Employee" time="0.001">
+    <failure message="expected [HTTP/1.1 200 OK] but found [HTTP/1.1 429 Too Many Requests]" type="java.lang.AssertionError">java.lang.AssertionError: expected [HTTP/1.1 200 OK] but found [HTTP/1.1 429 Too Many Requests]
+	at com.api.qa.testcase.Put_Employee.checkstatusLine(Put_Employee.java:72)
+</failure>
+  </testcase>
+  <testcase name="deleteEmployee" classname="com.api.qa.testcase.Delete_Employee" time="1.295">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.api.qa.testcase.Delete_Employee.deleteEmployee(Delete_Employee.java:33)
+</failure>
+    <system-out><![CDATA[2022-07-24 14:58:12 INFO  EmployeesRestAPI:101 - *********  Finished TC004_Put_Employee_Record **********
+2022-07-24 14:58:12 INFO  EmployeesRestAPI:22 - *********Started TC005_Delete_Employee_Record **********
+]]></system-out>
+  </testcase>
+  <testcase name="checkContentType" classname="com.api.qa.testcase.Delete_Employee" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="checkResposeBody" classname="com.api.qa.testcase.Delete_Employee" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="checkStatusCode" classname="com.api.qa.testcase.Delete_Employee" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="checkcontentEncoding" classname="com.api.qa.testcase.Delete_Employee" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="checkserverType" classname="com.api.qa.testcase.Delete_Employee" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="checkstatusLine" classname="com.api.qa.testcase.Delete_Employee" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearDown" classname="com.api.qa.testcase.Delete_Employee" time="0">
+    <skipped/>
+  </testcase>
+</testsuite>

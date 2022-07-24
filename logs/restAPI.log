@@ -23,3 +23,10 @@
 2022-07-22 23:53:20 INFO  EmployeesRestAPI:27 - *********Started TC004_Put_Employee_Record **********
 2022-07-22 23:53:25 INFO  EmployeesRestAPI:101 - *********  Finished TC004_Put_Employee_Record **********
 2022-07-22 23:53:25 INFO  EmployeesRestAPI:22 - *********Started TC005_Delete_Employee_Record **********
+2022-07-24 14:57:53 INFO  EmployeesRestAPI:29 - *********Started TC003_Post_Employee_Record **********
+2022-07-24 14:57:59 INFO  EmployeesRestAPI:103 - *********  Finished TC003_Post_Employee_Record **********
+2022-07-24 14:57:59 INFO  EmployeesRestAPI:16 - *********Started TC002_Get_Single_Employee_Record **********
+2022-07-24 14:58:06 INFO  EmployeesRestAPI:81 - *********  Finished TC002_Get_Single_Employee_Record **********
+2022-07-24 14:58:06 INFO  EmployeesRestAPI:27 - *********Started TC004_Put_Employee_Record **********
+2022-07-24 14:58:12 INFO  EmployeesRestAPI:101 - *********  Finished TC004_Put_Employee_Record **********
+2022-07-24 14:58:12 INFO  EmployeesRestAPI:22 - *********Started TC005_Delete_Employee_Record **********

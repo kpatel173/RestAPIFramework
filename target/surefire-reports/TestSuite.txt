@@ -1,0 +1,52 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 29, Failures: 12, Errors: 0, Skipped: 7, Time elapsed: 28.393 s <<< FAILURE! - in TestSuite
+CreateBoard(com.api.qa.testcase.Trello_GetTest)  Time elapsed: 4.507 s  <<< FAILURE!
+java.lang.AssertionError: expected [200] but found [400]
+	at com.api.qa.testcase.Trello_GetTest.CreateBoard(Trello_GetTest.java:41)
+
+GetBoard(com.api.qa.testcase.Trello_GetTest)  Time elapsed: 2.238 s  <<< FAILURE!
+java.lang.AssertionError: expected [200] but found [400]
+	at com.api.qa.testcase.Trello_GetTest.GetBoard(Trello_GetTest.java:63)
+
+checkResposeBody(com.api.qa.testcase.Post_Employee)  Time elapsed: 0.006 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.api.qa.testcase.Post_Employee.checkResposeBody(Post_Employee.java:58)
+
+checkStatusCode(com.api.qa.testcase.Post_Employee)  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.AssertionError: expected [200] but found [429]
+	at com.api.qa.testcase.Post_Employee.checkStatusCode(Post_Employee.java:67)
+
+checkstatusLine(com.api.qa.testcase.Post_Employee)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: expected [HTTP/1.1 200 OK] but found [HTTP/1.1 429 Too Many Requests]
+	at com.api.qa.testcase.Post_Employee.checkstatusLine(Post_Employee.java:74)
+
+checkContentType(com.api.qa.testcase.Get_Single_Employee)  Time elapsed: 0.003 s  <<< FAILURE!
+java.lang.AssertionError: expected [text/html; charset=UTF-8] but found [application/json]
+	at com.api.qa.testcase.Get_Single_Employee.checkContentType(Get_Single_Employee.java:61)
+
+checkResposeBody(com.api.qa.testcase.Get_Single_Employee)  Time elapsed: 0.003 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.api.qa.testcase.Get_Single_Employee.checkResposeBody(Get_Single_Employee.java:31)
+
+checkResposeBody(com.api.qa.testcase.Put_Employee)  Time elapsed: 0.003 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.api.qa.testcase.Put_Employee.checkResposeBody(Put_Employee.java:56)
+
+checkStatusCode(com.api.qa.testcase.Put_Employee)  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.AssertionError: expected [200] but found [429]
+	at com.api.qa.testcase.Put_Employee.checkStatusCode(Put_Employee.java:65)
+
+checkserverType(com.api.qa.testcase.Put_Employee)  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.AssertionError: expected [nginx/1.14.1] but found [nginx]
+	at com.api.qa.testcase.Put_Employee.checkserverType(Put_Employee.java:87)
+
+checkstatusLine(com.api.qa.testcase.Put_Employee)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: expected [HTTP/1.1 200 OK] but found [HTTP/1.1 429 Too Many Requests]
+	at com.api.qa.testcase.Put_Employee.checkstatusLine(Put_Employee.java:72)
+
+deleteEmployee(com.api.qa.testcase.Delete_Employee)  Time elapsed: 1.295 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.api.qa.testcase.Delete_Employee.deleteEmployee(Delete_Employee.java:33)
+
